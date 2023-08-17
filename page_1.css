@@ -1,0 +1,31 @@
+.block_header{
+    display: flex;
+    width: 100vw;
+    height: 4.7vw;
+    background-color: rgb(205, 199, 199);
+   align-items: center;
+    flex-wrap: nowrap;
+   justify-content: space-around;
+}
+
+#logo_header{
+    width: 8vw;
+    height: 2vw;
+}
+#header_navbar{
+    display: flex;
+    width: 32vw;
+    height: 2vw;
+    margin: 0px 0px 0px 20vw;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+}
+
+#header_navbar_li{
+list-style-type: none;
+margin-right: 1vw;
+font-family: Inter;
+font-weight: 400;
+font-size: 1vw;
+line-height: 21px;
+}
