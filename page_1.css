@@ -28,4 +28,8 @@ font-family: Inter;
 font-weight: 400;
 font-size: 1vw;
 line-height: 21px;
+
+}
+#header_navbar_li:hover{
+    cursor: pointer;
 }
