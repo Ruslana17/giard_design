@@ -19,6 +19,7 @@
     margin: 0px 0px 0px 20vw;
     justify-content: space-around;
     flex-wrap: nowrap;
+    align-items: center;
 }
 
 #header_navbar_li{
@@ -28,8 +29,44 @@ font-family: Inter;
 font-weight: 400;
 font-size: 1vw;
 line-height: 21px;
+color: var(--color-black);
+
 
 }
 #header_navbar_li:hover{
     cursor: pointer;
+}
+
+#header_search{
+    width: auto;
+}
+#header_oferta{
+    width: 0.98vw;
+}
+
+#oferta_hover{
+    display: none;
+    position: absolute;
+    width: 11vw;
+    height: 8vw;
+    background-color: #DCC1AB;
+    margin: 1vw;
+    top: 2vw;
+    right: 34vw;
+    border-radius: 2.1vw;
+    padding: 1vw;
+
+    transition: all 0.3s ease-in-out;
+    color: var(--color-black);
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1.2vw;
+    
+}
+#oferta_hover>ul{
+padding: 1vw;
+}
+#oferta_hover>ul>li{
+list-style-type: none;
+padding: 2%;
 }

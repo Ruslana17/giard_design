@@ -1,5 +1,8 @@
 @import 'page_1.css';
 
+:root{
+    --color-black: #000000;
+}
 body{
     margin: 0px;
 }
