@@ -2,7 +2,9 @@
 
 :root{
     --color-black: #000000;
+    --color-blackwhite:#606060;
 }
 body{
     margin: 0px;
+    width: auto;
 }
