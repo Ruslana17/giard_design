@@ -6,7 +6,7 @@ menuOferta.classList.toggle('flex')
 })
 
 menuOferta.addEventListener('click', (event)=>{
-  if(event.target.classList.contains('menu_oferta')){
+  if(event.target.classList.contains('menuOferta')){
         menuOferta.classList.toggle('flex') 
     }
 })*/

@@ -79,6 +79,57 @@ padding: 2%;
 .hero_block{
     width: 100%;
     height: 737px;
+    display: flex;
     background-color: #DCC1AB;
     margin: 0%;
+}
+#kontent,#kontent_photo{
+width: 50%;
+height: 100%;
+}
+#kontent_text{
+    display: flex;
+    width: 599px;
+    height: 448px;
+    margin: 144px 64px 144px 64px;
+    flex-direction: column;
+}
+#kontent_text>h2{
+    font-size: 60px;
+    font-family: Montserrat;
+    font-weight: 500;
+    line-height: 70px;
+}
+#kontent_text>h4{
+    width: 35vw;
+    font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+margin: 0% 17% 4% 0%
+}
+#button_hero_block{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#buttonContact{
+    width: 208px;
+    height: 50px;
+    border-radius: 200px;
+    border: none;
+    background-color: #1B5B31;
+    color: white;
+    margin: 2%;
+}
+#buttonRealizacje{
+    display: flex;
+    width: 208px;
+    height: 50px;
+    border-radius: 200px;
+    border: 1px solid #1B5B31;
+    color: #1B5B31;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #ffffff00;
 }
