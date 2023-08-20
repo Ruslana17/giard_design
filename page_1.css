@@ -133,3 +133,14 @@ margin: 0% 17% 4% 0%
     justify-content: space-evenly;
     background-color: #ffffff00;
 }
+#buttonContact, #buttonRealizacje:hover{
+    cursor: pointer;
+
+}
+#buttonContact:hover{
+    background-color: #1b5b31d3;
+}
+#buttonRealizacje:hover{
+    border: 1px solid #1b5b31a1;
+    color: #1b5b31a8;
+}
