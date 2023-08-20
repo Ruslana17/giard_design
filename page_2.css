@@ -1,0 +1,35 @@
+.oferta_block{
+    width: 100%;
+    height: 939px;
+    background-color: #F5F0EC;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#frame_2308{
+    display: flex;
+width: 1040px;
+height: 193px;
+flex-direction: column;
+align-items: flex-start;
+gap: 16px;
+background-color: rgb(183, 197, 197);
+}
+#cards{
+    display: flex;
+   
+    height: 370px;
+    padding: 0px 8vw;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 5vw;
+    align-self: stretch;
+}
+#cards_frame{
+    width: 378px;
+    height: 370px;
+    background-color: rgb(183, 197, 197);
+    border-radius: 28px;
+}
