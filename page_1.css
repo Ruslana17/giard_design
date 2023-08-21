@@ -47,9 +47,9 @@ text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.49);
 #oferta_click{
     display: none;
     position: absolute;
-    width: 11vw;
-    height: 8vw;
-    background-color: #DCC1AB;
+    width: 19vw;
+    height: 10vw;
+    background-color: #1b5b31f5;
     margin: 1vw;
     top: 2vw;
     right: 34vw;
@@ -57,11 +57,18 @@ text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.49);
     padding: 1vw;
 
     transition: all 0.3s ease-in-out;
-    color: var(--color-black);
+    color: white;
     font-family: Inter;
     font-weight: 400;
-    font-size: 1.2vw;
+    font-size: 1.4vw;
     
+}
+#oferta_click>ul{
+    padding: 1.2vw;
+}
+#oferta_click>ul>li{
+    list-style-type: none;
+    padding: 0.3vw;
 }
 #oferta_hover>ul{
 padding: 1vw;
