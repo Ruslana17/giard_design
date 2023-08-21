@@ -59,6 +59,6 @@
 #cards_frame{
     width: 25.3vw;
     height: 25vw;
-    background-color: rgb(183, 197, 197);
+    background-color: var(--color-white);
     border-radius: 28px;
 }
