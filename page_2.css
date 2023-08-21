@@ -61,4 +61,32 @@
     height: 25vw;
     background-color: var(--color-white);
     border-radius: 28px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 2vw;
+    padding: 48px 40px;
+}
+#cards_frame_text_and_icon{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+}
+#cards_frame_button{
+    display: flex;
+    width: 171px;
+    height: 24px;
+    justify-content: space-evenly;
+    border: 0cqw;
+    border-bottom:  1px solid var(--color-green);
+    align-items: center;
+    background-color: #f5f0ec00;
+    color:var(--color-green) ;
+    font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 150%; 
 }
