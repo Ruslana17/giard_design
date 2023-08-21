@@ -78,7 +78,7 @@ padding: 2%;
 
 .hero_block{
     width: 100%;
-    height: 737px;
+    height: 49.7vw;
     display: flex;
     background-color: #DCC1AB;
     margin: 0%;
@@ -86,22 +86,26 @@ padding: 2%;
 #kontent,#kontent_photo{
 width: 50%;
 height: 100%;
+display: flex;
 }
 #kontent_photo{
-    display: flex;
-    justify-content: flex-end;}
+    justify-content: flex-end;
+}
+#kontent_photo_img{
+    overflow: hidden;
+}
 #kontent_text{
     display: flex;
     width: 40vw;
     height: 30vw;
-    margin: 144px 64px 144px 64px;
+    margin: auto;
     flex-direction: column;
 }
 #kontent_text>h2{
     font-size: 4vw;
     font-family: Montserrat;
     font-weight: 500;
-    line-height: 70px;
+    line-height: 5vw;
     margin: 2vw 0%;
 }
 #kontent_text>h4{
