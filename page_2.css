@@ -14,12 +14,41 @@
     height: 13vw;
     flex-direction: column;
     align-items: flex-start;
-    gap: 2vw;
-    background-color: rgb(183, 197, 197);
+    gap: 1vw;
+    font-family: Inter;
+}
+#frame_2308>h4{
+    color: var(--color-green);
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.12px;
+}
+#frame_2308_text{
+    display: flex;
+    width: 47.86vw;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.5vw;
+}
+#frame_2308_text>h2{
+    font-family: Montserrat;
+    font-size: 2.9vw;
+   
+    font-weight: 500;
+    line-height: 115%; 
+    letter-spacing: -1.44px;
+}
+#frame_2308_text>h3{
+    font-family: Inter;
+    font-size: 1.07vw;
+    color: var(--color-black);
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.16px;
 }
 #cards{
     display: flex;
-   
     height: 25vw;
     padding: 0px 8vw;
     justify-content: center;

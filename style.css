@@ -3,6 +3,7 @@
 :root{
     --color-black: #000000;
     --color-blackwhite:#606060;
+    --color-green: #1B5B31;
 }
 body{
     margin: 0px;
