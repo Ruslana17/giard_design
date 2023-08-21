@@ -143,6 +143,9 @@ margin: 0% 17% 4% 0%
     background-color: #ffffff00;
     font-size: 1vw;
 }
+#buttonRealizacje_photo{
+    width: 1.2vw;  
+}
 #buttonContact, #buttonRealizacje:hover{
     cursor: pointer;
 
