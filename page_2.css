@@ -121,10 +121,10 @@ font-weight: 400;
     display: flex;
     background-color: var(--color-green);
     justify-content: space-between;
-    gap:4vw;
+    
 }
 #o_firmie_block_img{
-    width: 47%;
+    width: 50%;
     display: flex;
     
 }
@@ -153,6 +153,17 @@ font-weight: 400;
     letter-spacing: -0.12px;
     color: var(--color-grey);
 }
+
+#o_firmie_block_text>h3{
+    font-family: Inter;
+    font-size: 16px;
+      
+    font-weight: 400;
+    line-height: 150%; 
+    letter-spacing: -0.16px;
+    color: var(--color-grey);
+
+}
 #tworzymy{
     font-family: Montserrat;
 font-size: 48px;
@@ -170,15 +181,7 @@ color: var(--color-grey);
     line-height: 115%;
     color: var(--color-grey);
 }
-#o_firmie_block_text>h3{
-    font-family: Inter;
-    font-size: 16px;
-  
-    font-weight: 400;
-    line-height: 150%; 
-    letter-spacing: -0.16px;
-    color: var(--color-grey);
-}
+
 #o_firmie_block_button{
     display: flex;
     width:  194px;
@@ -187,6 +190,7 @@ color: var(--color-grey);
     border: 1px solid var(--color-grey);
     background-color: #f5f0ec00;
     color: var(--color-grey);
+    margin-top: 2vw;
     font-family: Inter;
     font-size: 16px;
 
