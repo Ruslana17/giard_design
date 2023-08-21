@@ -82,12 +82,14 @@ padding: 2%;
     display: flex;
     background-color: #DCC1AB;
     margin: 0%;
-    justify-content: space-between;
 }
 #kontent,#kontent_photo{
 width: 50%;
 height: 100%;
 }
+#kontent_photo{
+    display: flex;
+    justify-content: flex-end;}
 #kontent_text{
     display: flex;
     width: 40vw;
