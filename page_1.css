@@ -70,6 +70,10 @@ text-shadow: 1px 3px 7px rgba(0, 0, 0, 0.49);
     list-style-type: none;
     padding: 0.3vw;
 }
+.oferta_click>ul>li:hover{
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.774);
+}
 #oferta_hover>ul{
     padding: 1vw;
 }
