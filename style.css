@@ -23,3 +23,23 @@ h3{
 h4{
     margin: 0%;
 }
+@media screen and (max-width: 415px) {
+    
+    #kontent_text{
+        width: 46vw;
+        height: 34vw;
+    }
+    #kontent_text>h4{
+        width: 41vw;
+        font-size: 1.5vw;
+    }
+    #buttonContact,#buttonRealizacje {
+        width: 16.2vw;
+        height: 4.5vw;
+        font-size: 1.2vw;
+        padding: 1%;
+    }
+    #frame_2308_text>h2{
+        
+    }
+}
