@@ -1,5 +1,5 @@
-const oferta = document.querySelector('#header_navbar_li');
-const menuOferta = document.querySelector('.oferta_click');
+const oferta = document.querySelector('#header_navbar_li');/* oferta */
+const menuOferta = document.querySelector('.oferta_click');/* dropdown box */
 
 oferta.addEventListener('click', () => {
 menuOferta.classList.toggle('flex')
