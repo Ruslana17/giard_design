@@ -30,6 +30,9 @@ a{
 .flex{
     display: flex;
 }
+.flex_none{
+    display: none;
+}
 @media screen and (max-width: 415px) {
     
     #kontent_text{
