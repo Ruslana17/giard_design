@@ -6,6 +6,7 @@ menuOferta.classList.toggle('flex')
 })
 
 menuOferta.addEventListener('click', (event)=>{
+  console.log(event)
   if(event.target.classList.contains('menuOferta')){
         menuOferta.classList.toggle('flex_none') 
     }
